@@ -1,0 +1,23 @@
+# Force LF line endings on all text files.
+# Android mksh scripts must NOT have CRLF or they fail to parse.
+* text=auto eol=lf
+
+# Shell scripts — always LF, no exceptions
+*.sh text eol=lf
+
+# Config / props — always LF
+*.conf text eol=lf
+*.prop text eol=lf
+
+# Python — LF
+*.py text eol=lf
+
+# Markdown / text — LF
+*.md text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+
+# Binary — never touch
+*.zip binary
+*.apk binary
+*.bin binary
