@@ -1,0 +1,6 @@
+id=usb_volume_fix_v2
+name=Wired Earphone Volume Fix v2
+version=2.1
+versionCode=3
+author=sensenova
+description=Fixes USB DAC earphone volume. Watchdog starts daemon only on USB connect, stops on disconnect. Sets USB hardware volume via tinymix (card 1) only. Does not touch persist.audio props, spllimit, audio HAL, or speaker.
