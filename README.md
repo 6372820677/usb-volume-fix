@@ -1,6 +1,6 @@
 # USB DAC 音量修复 / USB DAC Volume Fix
 
-> 修复部分 ColorOS / Android 设备上 **USB DAC 有线耳机音量不响应音量键** 的问题，并提供分段线性的感知音量曲线。
+> 修复 ColorOS / Android 设备上 **USB DAC 有线耳机音量不响应音量键** 的问题，并提供分段线性的感知音量曲线。
 
 Fixes the issue where **USB DAC wired-earphone volume does not respond to the volume keys** on certain ColorOS / Android devices, and provides a perceptually-linear volume curve via gamma correction.
 
