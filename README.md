@@ -8,7 +8,7 @@ Fixes the issue where **USB DAC wired-earphone volume does not respond to the vo
 
 ## 问题背景 / The Problem
 
-在部分 ColorOS ROM 上，系统音频 HAL（AHAL）不会将 `STREAM_MUSIC` 的音量变化路由到 USB DAC。结果是：插上 USB Type-C 耳机后，按音量键**扬声器音量在变，耳机音量纹丝不动**，耳机始终处于一个固定（通常很大）的硬件音量。
+在 ColorOS ROM 上，系统音频 HAL（AHAL）不会将 `STREAM_MUSIC` 的音量变化路由到 USB DAC。结果是：插上 USB Type-C 耳机后，按音量键**扬声器音量在变，耳机音量纹丝不动**，耳机始终处于一个固定（通常很大）的硬件音量。
 
 On some ColorOS ROMs, the system audio HAL does not route `STREAM_MUSIC` volume changes to the USB DAC. The result: after plugging in a USB Type-C earphone, pressing the volume keys changes the **speaker** volume but the **earphone** volume stays fixed (usually uncomfortably loud).
 
